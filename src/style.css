@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   margin-top: 100px;
   border-radius: 15px;
-  position: relative; /* Añade posición relativa al contenedor */
+  position: relative;
 }
 
 .number {
@@ -19,7 +19,7 @@ body {
   margin-top: 100px;
 }
 
-.firsticon {
+.icon1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -28,11 +28,24 @@ body {
   font-size: 80px;
 }
 
-.secondicon {
+.icon2 {
   position: absolute;
   bottom: 0;
   right: 0;
   margin-bottom: 20px;
   margin-right: 20px;
   font-size: 80px;
+}
+
+.randomcardbutton {
+  font-size: 40px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 570px;
+  margin-top: 20px;
+}
+
+.heart {
+  color:red;
 }
